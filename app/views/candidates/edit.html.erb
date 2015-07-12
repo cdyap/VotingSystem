@@ -1,0 +1,9 @@
+<h1>Edit Candidate <%= @candidate.first_name %> <%= @candidate.last_name %> </h1>
+<%= simple_form_for(@candidate) do |c| %>
+	<%= c.input :first_name %> <br>
+	<%= c.input :last_name %> <br>
+	<%= c.input :gender %> <br>
+	<%= c.association :position_id %> <br>
+	<hr>
+	<%= c.submit :save %>
+<% end %>

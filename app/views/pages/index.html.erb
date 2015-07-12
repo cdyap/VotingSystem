@@ -1,0 +1,74 @@
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Register</a></li>
+        <li><a href="#contact">Login</a></li>
+        <li><a href="#contact">Current Votes</a></li>
+        <li><a href="#contact">About Us</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+<div class="jumbotron" id="home">
+	<div class="container">
+		<%= image_tag("logo-01.png", :id => "logo") %>
+		<br>
+		<%= link_to "Begin voting!", new_user_path, :class => "btn btn-lg", :id => "begin-voting", :role => "button" %>
+	</div>
+</div>
+
+<div id="second-section">
+	<div class="container" >
+		<div class="row">
+			<div class="col-md-offset-3 col-md-6 startchange" >
+				<h1>Vote for your favorite candidates.</h1>
+				<h2>RDNT Voting Solutions provides an avenue for voters to choose their candidates for the upcoming elections.</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="about-us">
+	<div class="container">
+		<h1>About Us</h1>
+		<div class="row">
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<%= image_tag("jemtan.jpg", :class => "img-responsive img-circle center-block") %>
+				<!--<img src="jemtan.jpg" class="img-responsive img-circle center-block">-->
+				<h3>Hana Chow</h3>
+				<p>3 BS MIS<p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<%= image_tag("jemtan.jpg", :class => "img-responsive img-circle center-block") %>
+				<!--<img src="jemtan.jpg" class="img-responsive img-circle center-block"> -->
+				<h3>Timothy Cu</h3>
+				<p>3 BS MIS<p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<%= image_tag("jemtan.jpg", :class => "img-responsive img-circle center-block") %>
+				<!--<img src="jemtan.jpg" class="img-responsive img-circle center-block"> -->
+				<h3>Jem Tan</h3>
+				<p>3 BS MIS<p>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<%= image_tag("jemtan.jpg", :class => "img-responsive img-circle center-block") %>
+				<!--<img src="jemtan.jpg" class="img-responsive img-circle center-block">-->
+				<h3>Dominic Yap</h3>
+				<p>3 BS MIS<p>
+			</div>
+		</div>
+	</div>
+</div>
+
+P

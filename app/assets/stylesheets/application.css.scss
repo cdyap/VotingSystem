@@ -1,0 +1,225 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree 
+ *= require_self.
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap"; 
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:100,400,700);
+@import url(http://fonts.googleapis.com/css?family=Esteban);
+
+body {
+	font-family: 'Montserrat', sans-serif;	
+	background-color: #F0F6FF;
+}
+
+.jumbotron {
+	height: 104vh;
+	background: image-url('53320024.JPG');
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	text-align: center;
+  	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+
+h1, h2 {
+	margin: 0;
+	padding: 0;
+}
+
+@media (min-width: 768px) {
+	.jumbotron h1 {
+		font-size: 8em;
+		color: #ffffff;
+	}
+	.jumbotron h2 {
+		font-size: 4em;
+		color: #ffffff;
+		font-family: 'Esteban';
+	}
+
+	#second-section h1 {
+		font-size: 3em;
+	}
+
+	#second-section h2 {
+		margin-top: 20px;
+		font-family: 'Esteban';
+		font-size: 1.4em;
+		color: #dedede;
+	}
+
+	#about-us h1 {
+		color: #C92020;
+		font-size: 3em;
+		margin-bottom: 40px;
+	}
+
+	#about-us h3 {
+		font-size: 1.4em;
+	}
+
+	#logo {
+		max-width: 120vmin;
+	}
+
+	#sign-up-logo {
+		max-width: 40vmin;
+	}
+}
+
+@media (max-width: 767px) {
+	.jumbotron h1 {
+		font-size: 6em;
+		color: #ffffff;
+	}
+
+	.jumbotron h2 {
+		font-size: 3em;
+		color: #ffffff;
+		font-family: 'Esteban';
+	}
+
+	#second-section h1 {
+		font-size: 2em;
+	}
+
+	#second-section h2 {
+		margin-top: 20px;
+		font-family: 'Esteban';
+		font-size: 1.1em;
+		color: #efefef;
+	}
+
+	#about-us h1 {
+		color: #C92020;
+		font-size: 2em;
+		margin-bottom: 40px;
+	}
+
+	#about-us h3 {
+		font-size: 1.1em;
+	}
+
+	#logo {
+		max-width: 80vmin;
+	}
+
+	#sign-up-logo {
+		max-width: 20vmin;
+	}
+}
+
+.sub-header-text {
+	/*font-family: 'Esteban';*/
+	font-weight: 100;
+	color: #FFFFFF;
+	font-size: 4em;	
+}
+
+.navbar-default{
+    background: transparent;
+    border: none;
+    color: #efefef;
+    transition: top 0.2s ease-in-out;
+}
+
+.nav-up {
+    top: -50px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: #FF4E33;
+} 
+
+.navbar-default .navbar-nav>li>a:active{
+    color: #C92020;
+} 
+
+.navbar-default .navbar-nav>li>a {
+	color: #FFFFFF;
+}
+.collapse.in{    
+    background-color: #C92020;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus
+.spacer{
+   /*background-color:#fff;   */
+   color: #efefef;
+}
+
+#second-section {
+	padding: 80px;
+	/*background-color: #F0F6FF;*/
+	background-color: #C92020;
+	/*color: #C92020;*/
+	color: #F0F6FF;
+	text-align: center;
+}
+
+#about-us {
+	padding: 80px;
+	background-color: #F0F6FF;
+	text-align: center;
+}
+
+#begin-voting{
+	margin-top: 80px;
+	background-color: #C92020;
+	color: #ffffff;
+	border-radius: 24px;
+}
+
+#begin-voting:hover {	
+	background-color: #A41A1A;
+}
+#begin-voting:active {	
+	background-color: #A41A1A;
+}
+
+.img-responsive {
+	max-width: 70%;
+}
+
+footer {
+	background-color: #303030;
+	color: #ffffff;
+	font-family: 'Esteban';
+	font-weight: 100;
+	font-size: 1em;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+	padding: 0;
+}
+
+.text-italic {
+	font-style: italic;
+}
+
+.sign-in {
+	padding-top: 60px;
+	text-align: center;
+}
