@@ -11,7 +11,7 @@
 @import "bootstrap"; 
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:100,400,700);
-@import url(http://fonts.googleapis.com/css?family=Esteban);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
 
 body {
 	font-family: 'Montserrat', sans-serif;	
@@ -32,6 +32,21 @@ body {
 	margin: 0;
 }
 
+
+#home h4, #home h4 a{
+	color: #ffffff;
+	font-family: 'Droid Serif';
+	font-style: italic;
+}
+
+#home h4 a {
+	text-decoration: underline;
+}
+
+#home h4 a:hover {
+	color: #C92020;
+}
+
 h1, h2 {
 	margin: 0;
 	padding: 0;
@@ -45,7 +60,7 @@ h1, h2 {
 	.jumbotron h2 {
 		font-size: 4em;
 		color: #ffffff;
-		font-family: 'Esteban';
+		font-family: 'Droid Serif';
 	}
 
 	#second-section h1, #header-index-user h1 {
@@ -54,7 +69,7 @@ h1, h2 {
 
 	#second-section h2, #header-index-user h2 {
 		margin-top: 20px;
-		font-family: 'Esteban';
+		font-family: 'Droid Serif';
 		font-size: 1.4em;
 		color: #dedede;
 	}
@@ -87,7 +102,7 @@ h1, h2 {
 	.jumbotron h2 {
 		font-size: 3em;
 		color: #ffffff;
-		font-family: 'Esteban';
+		font-family: 'Droid Serif';
 	}
 
 	#second-section h1, #header-index-user h1 {
@@ -96,7 +111,7 @@ h1, h2 {
 
 	#second-section h2, #header-index-user h2 {
 		margin-top: 20px;
-		font-family: 'Esteban';
+		font-family: 'Droid Serif';
 		font-size: 1.1em;
 		color: #efefef;
 	}
@@ -121,7 +136,7 @@ h1, h2 {
 }
 
 .sub-header-text {
-	/*font-family: 'Esteban';*/
+	/*font-family: 'Droid Serif';*/
 	font-weight: 100;
 	color: #FFFFFF;
 	font-size: 4em;	
@@ -193,7 +208,7 @@ h1, h2 {
 footer {
 	background-color: #303030;
 	color: #ffffff;
-	font-family: 'Esteban';
+	font-family: 'Droid Serif';
 	font-weight: 100;
 	font-size: 1em;
 	padding-top: 40px;
